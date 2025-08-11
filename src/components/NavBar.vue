@@ -8,27 +8,20 @@
       </div>
 
       <!-- Hamburger menu button (mobile only) -->
-      <button 
-        class="hamburger" 
-        @click="toggleMenu"
-        aria-label="Toggle navigation menu"
-      >
+      <button class="hamburger" @click="toggleMenu" aria-label="Toggle navigation menu">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
       </button>
 
-      <!-- Navigation links - now wrapped in a div with dynamic class -->
-      <div 
-        class="nav-links-container" 
-        :class="{ 'active': isMenuOpen }"
-      >
+      <!-- Navigation links -->
+      <div class="nav-links-container" :class="{ 'active': isMenuOpen }">
         <ul class="nav-links">
-          <li><router-link to="/" @click="closeMenu">Home</router-link></li>
-          <li><router-link to="/about" @click="closeMenu">About</router-link></li>
-          <li><router-link to="/skills" @click="closeMenu">Skills</router-link></li>
-          <li><router-link to="/projects" @click="closeMenu">Projects</router-link></li>
-          <li><router-link to="/contact" @click="closeMenu">Contact</router-link></li>
+          <li><router-link :to="{name: 'home'}" @click="closeMenu">Home</router-link></li>
+          <li><router-link :to="{name: 'about'}" @click="closeMenu">About</router-link></li>
+          <li><router-link :to="{name: 'skills'}" @click="closeMenu">Skills</router-link></li>
+          <li><router-link :to="{name: 'projects'}" @click="closeMenu">Projects</router-link></li>
+          <li><router-link :to="{name: 'contact'}" @click="closeMenu">Contact</router-link></li>
         </ul>
       </div>
     </div>
@@ -76,7 +69,7 @@ export default {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  z-index: 1001; /* Ensure logo stays above mobile menu */
+  z-index: 1001;
 }
 
 .logo {
@@ -92,9 +85,9 @@ export default {
   padding: 16px 0 0 0;
 }
 
-/* Hamburger menu styles */
+
 .hamburger {
-  display: none; /* Hidden by default on desktop */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -144,16 +137,19 @@ export default {
 /* Mobile styles */
 @media (max-width: 768px) {
   .hamburger {
-    display: block; /* Show hamburger on mobile */
+    display: block;
+    /* Show hamburger on mobile */
   }
 
-  /* Transform hamburger to X when menu is open */
+
   .hamburger.active .hamburger-line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburger.active .hamburger-line:nth-child(2) {
     opacity: 0;
   }
+
   .hamburger.active .hamburger-line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }

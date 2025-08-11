@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 .home {
-    min-height: calc(100vh - 80px); /* Adjust based on your navbar height */
+    min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
 }
