@@ -7,7 +7,7 @@
     "tags": ["Vue.js", "Electron.js", "in-progress"],
     "category": "dev",
     "demoUrl": "",
-    "codeUrl": "#"
+    "codeUrl": "https://github.com/rynBenAmor/expense-tracker-app"
   },
   {
     "id": 2,
@@ -26,8 +26,8 @@
     "image": "/media/portfolio-demo.png",
     "tags": ["Vue.js", "Vercel"],
     "category": "pro",
-    "demoUrl": "",
-    "codeUrl": ""
+    "demoUrl": "https://rayen-ben-amor.vercel.app/",
+    "codeUrl": "https://github.com/rynBenAmor/personal-pertfolio"
   },
   {
     "id": 4,

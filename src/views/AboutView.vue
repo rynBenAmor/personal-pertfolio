@@ -5,9 +5,8 @@
         <h1>About <span class="highlight">Me</span></h1>
         <p class="intro">
           Junior developer from Tunisia, with hands-on experience building and deploying full-stack apps.
-          Super comfortable with <span class="highlight">Django</span> and <span class="highlight">Vue</span>. Always up
-          for learning new tech, tackling tricky
-          projects, and connecting with people in the industry.
+          Super comfortable with <span class="highlight">Django</span> and <span class="highlight">Vue</span>.
+          Always up for learning new tech, tackling tricky projects, and connecting with people in the industry.
         </p>
         <div class="about-details">
           <div class="personal-info">
@@ -17,8 +16,9 @@
               <li><strong>Email:</strong> benamor.rayen@protonmail.com</li>
               <li><strong>Location:</strong> Tunisia, Nabeul</li>
               <li><strong>Education:</strong> Graduated from <a href="https://fst.rnu.tn/en"
-                  class="highlight underlined fw-bold" target="_blank" rel="noopener noreferrer">FST</a>
-                  with an <span class="highlight">ICT</span> degree</li>
+                  class="highlight underlined fw-bold" target="_blank" rel="noopener noreferrer">FST <i
+                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                with an <span class="highlight">ICT</span> degree</li>
             </ul>
           </div>
           <div class="experience">
@@ -27,11 +27,12 @@
               <div class="timeline-item">
                 <h4>web Developer @ Sté Fathi Ben Slimene</h4>
                 <p class="timeline-date">2024 - Present</p>
-                <p>Developed my first full e-commerce platform from A to Z, making the most of Django's robust ecosystem.</p>
+                <p>Developed my first full e-commerce platform from A to Z, making the most of Django's robust
+                  ecosystem.</p>
               </div>
 
               <div class="timeline-item">
-                <h4>web Developer @ Sté Fathi Ben Slimene</h4>
+                <h4>web Developer @ Artiplast</h4>
                 <p class="timeline-date">2024 - Present</p>
                 <p>Developed a serverless Vue SPA on Vercel, centered on static product display and UI design.</p>
               </div>
@@ -74,6 +75,7 @@ h1 {
 
 .highlight {
   color: var(--teal-600);
+  font-weight: bold;
 }
 
 .underlined {

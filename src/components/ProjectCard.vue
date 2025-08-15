@@ -11,7 +11,8 @@
       </div>
       <div class="project-links">
         <a v-if="demoUrl" :href="demoUrl" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
-        <a v-if="codeUrl" :href="codeUrl" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View Code</a>
+        <a v-if="codeUrl" :href="codeUrl" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View
+          Code</a>
       </div>
     </div>
   </div>
@@ -50,6 +51,7 @@ export default {
   width: 100%;
   height: 200px;
   object-fit: fill;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.2);
 }
 
 .project-content {
@@ -84,6 +86,7 @@ export default {
 .project-links {
   display: flex;
   gap: 1rem;
+  margin-top: auto;
 }
 
 .btn {
