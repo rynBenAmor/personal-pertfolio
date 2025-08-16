@@ -1,6 +1,6 @@
 <template>
   <div class="skill-badge" :style="{ backgroundColor: bgColor, color: textColor }">
-    <i :class="iconClass" v-if="iconClass"></i>
+    <font-awesome-icon :icon="icon" />
     <span>{{ skillName }}</span>
   </div>
 </template>
@@ -10,7 +10,7 @@ export default {
   name: 'SkillBadge',
   props: {
     skillName: String,
-    iconClass: String,
+    icon: [String, Array],
     bgColor: {
       type: String,
       default: 'var(--blue-100)'

@@ -7,7 +7,7 @@
       <div class="contact-container">
         <div class="contact-info">
           <div class="info-item">
-            <i class="fas fa-envelope"></i>
+            <font-awesome-icon icon="fas fa-envelope" />
             <div>
               <h3>Email</h3>
               <p>benamor.rayen@protonmail.com <br>
@@ -15,14 +15,15 @@
             </div>
           </div>
           <div class="info-item">
-            <i class="fas fa-phone"></i>
+            <font-awesome-icon icon="fas fa-phone-alt" />
             <div>
               <h3>Phone</h3>
               <p>+216 53-400-838</p>
             </div>
           </div>
           <div class="info-item">
-            <i class="fas fa-map-marker-alt"></i>
+
+            <font-awesome-icon icon="fas fa-map-marker-alt" />
             <div>
               <h3>Location</h3>
               <p>Tunisia, Nabeul</p>
@@ -30,14 +31,19 @@
           </div>
           <div class="social-links">
             <a href="https://github.com/rynBenAmor" title="GitHub" target="_blank" rel="noopener noreferrer"
-              class="social-icon"><i class="fab fa-github"></i></a>
+              class="social-icon">
+              <font-awesome-icon icon="fab fa-github"></font-awesome-icon>
+            </a>
 
             <a href="https://www.linkedin.com/in/rayen-ben-amor-7775292a6/" title="LinkedIn" target="_blank"
-              rel="noopener noreferrer" class="social-icon"><i class="fab fa-linkedin"></i></a>
+              rel="noopener noreferrer" class="social-icon">
+              <font-awesome-icon icon="fab fa-linkedin"></font-awesome-icon>
+            </a>
 
             <!-- TODO: vue.js is screws with my anchor tags -->
-            <a href="/resume.pdf" class="social-icon" title="Resume" target="_blank"
-              rel="noopener noreferrer external"><i class="fa-solid fa-file-pdf"></i></a>
+            <a href="/resume.pdf" class="social-icon" title="Resume" target="_blank" rel="noopener noreferrer external">
+              <font-awesome-icon icon="fa-solid fa-file-pdf"></font-awesome-icon>
+            </a>
           </div>
         </div>
 
@@ -102,7 +108,8 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.info-item i {
+/* Target the SVG icons specifically */
+.info-item svg {
   font-size: 1.5rem;
   color: var(--teal-500);
   margin-top: 0.3rem;

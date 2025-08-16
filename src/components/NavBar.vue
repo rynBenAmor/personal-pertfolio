@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <div class="logo-container">
-        <router-link to="/" class="logo">DevPortfolio
+        <router-link to="/" class="logo">Rayen.
           <img src="../assets/django-heart.svg" class="logo-image" alt="logo-image">
         </router-link>
       </div>
@@ -17,11 +17,11 @@
       <!-- Navigation links -->
       <div class="nav-links-container" :class="{ 'active': isMenuOpen }">
         <ul class="nav-links">
-          <li><router-link :to="{name: 'home'}" @click="closeMenu">Home</router-link></li>
-          <li><router-link :to="{name: 'about'}" @click="closeMenu">About</router-link></li>
-          <li><router-link :to="{name: 'skills'}" @click="closeMenu">Skills</router-link></li>
-          <li><router-link :to="{name: 'projects'}" @click="closeMenu">Projects</router-link></li>
-          <li><router-link :to="{name: 'contact'}" @click="closeMenu">Contact</router-link></li>
+          <li><router-link :to="{ name: 'home' }" @click="closeMenu">Home</router-link></li>
+          <li><router-link :to="{ name: 'about' }" @click="closeMenu">About</router-link></li>
+          <li><router-link :to="{ name: 'skills' }" @click="closeMenu">Skills</router-link></li>
+          <li><router-link :to="{ name: 'projects' }" @click="closeMenu">Projects</router-link></li>
+          <li><router-link :to="{ name: 'contact' }" @click="closeMenu">Contact</router-link></li>
         </ul>
       </div>
     </div>
@@ -68,7 +68,6 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
   z-index: 1001;
 }
 
