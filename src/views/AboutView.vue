@@ -16,8 +16,10 @@
               <li><strong>Email:</strong> benamor.rayen@protonmail.com</li>
               <li><strong>Location:</strong> Tunisia, Nabeul</li>
               <li><strong>Education:</strong> Graduated from <a href="https://fst.rnu.tn/en"
-                  class="highlight underlined fw-bold" target="_blank" rel="noopener noreferrer">FST <i
-                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  class="highlight underlined fw-bold" target="_blank" rel="noopener noreferrer">
+                  FST
+                  <font-awesome-icon icon="fas fa-arrow-up-right-from-square"></font-awesome-icon>
+                </a>
                 with an <span class="highlight">ICT</span> degree</li>
             </ul>
           </div>

@@ -30,20 +30,41 @@
         </div>
       </div>
     </section>
+
+
+    <section class="motivation-section">
+      <h2>What motivates me to do web dev?</h2>
+
+      <ol>
+        <li>Flexibility to work from anywhere</li>
+        <li><i>Ability to keep learning new things</i></li>
+        <li>The little pride of deploying something online</li>
+      </ol>
+
+      <p class="setup">But most importantly...</p>
+      <currency-component />
+    </section>
+
+
+
+
   </div>
 </template>
 
 <script>
+import CurrencyComponent from '@/components/CurrencyComponent.vue';
+
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  components: { CurrencyComponent }
 }
 </script>
 
 <style scoped>
 .home {
   min-height: calc(100vh - 80px);
-  display: flex;
-  align-items: center;
+  /*   display: flex;
+  align-items: center; */
 }
 
 .hero {
@@ -193,5 +214,46 @@ h2 {
   .hero-image {
     min-width: 100%;
   }
+}
+
+/** section 2 */
+.motivation-section {
+  max-width: 480px;
+  margin: 2rem auto;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.motivation-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.motivation-section ol {
+  margin: 0 0 1.5rem 1.2rem;
+  padding: 0;
+}
+
+.motivation-section ol li {
+  margin: 0.4rem 0;
+  list-style: none;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.motivation-section ol li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: teal;
+}
+
+.motivation-section .setup {
+  margin: 1.5rem 0 0.5rem;
+  font-weight: 500;
 }
 </style>
