@@ -220,12 +220,13 @@ h2 {
 .motivation-section {
   max-width: 480px;
   margin: 2rem auto;
-  font-family: system-ui, sans-serif;
   line-height: 1.6;
 }
 
 .motivation-section h2 {
-  font-size: 1.4rem;
+  color: var(--blue-grey-900);
+  font-weight: bold;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
@@ -247,13 +248,14 @@ h2 {
   left: 0;
   top: 0.6em;
   width: 0.5em;
-  height: 0.5em;
+  aspect-ratio: 1;
   border-radius: 50%;
-  background-color: teal;
+  background-color: var(--teal-500);
 }
 
 .motivation-section .setup {
+  color: var(--blue-grey-900);
   margin: 1.5rem 0 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 </style>
