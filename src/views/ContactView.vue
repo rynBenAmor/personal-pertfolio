@@ -40,7 +40,7 @@
               <font-awesome-icon icon="fab fa-linkedin"></font-awesome-icon>
             </a>
 
-            <!-- TODO: vue.js is screws with my anchor tags -->
+            <!-- TODO: vue.js is screwing with my anchor tags -->
             <a href="/resume.pdf" class="social-icon" title="Resume" target="_blank" rel="noopener noreferrer external">
               <font-awesome-icon icon="fa-solid fa-file-pdf"></font-awesome-icon>
             </a>

@@ -231,6 +231,7 @@ h2 {
 }
 
 .motivation-section ol {
+  font-size: 20px;
   margin: 0 0 1.5rem 1.2rem;
   padding: 0;
 }
@@ -254,6 +255,7 @@ h2 {
 }
 
 .motivation-section .setup {
+  font-size: 20px;
   color: var(--blue-grey-900);
   margin: 1.5rem 0 0.5rem;
   font-weight: 600;

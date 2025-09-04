@@ -44,7 +44,7 @@
                 <p>Built a Wagtail-powered CMS from scratch for my PFE.</p>
               </div>
               <div class="timeline-item">
-                <h4>College Student</h4>
+                <h4>College Student @ Faculté des Sciences de Tunis</h4>
                 <p class="timeline-date">2021 - 2024</p>
                 <p>Studied ICT at college, building my foundation in tech.</p>
               </div>
