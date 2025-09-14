@@ -27,14 +27,19 @@
             <h3>Experience</h3>
             <div class="timeline">
               <div class="timeline-item">
-                <h4>web Developer @ Sté Fathi Ben Slimene</h4>
+                <h4>Web Developer and IT Support Specialist @ Sté Fathi Ben Slimene</h4>
                 <p class="timeline-date">2024 - Present</p>
-                <p>Developed my first full e-commerce platform from A to Z, making the most of Django's robust
-                  ecosystem.</p>
+                <p><strong>Web Development:</strong> Built and maintained a Django e-commerce platform, automated
+                  product data collection with Python/Selenium, and created a CSV import system to reduce manual work.
+                  Set up deployment pipelines and optimized server performance and security.
+                </p>
+                <p><strong>IT Support & Operational Solutions:</strong> troubleshooting Windows systems, resolving
+                  software and hardware issues, and keeping operations running smoothly.
+                </p>
               </div>
 
               <div class="timeline-item">
-                <h4>web Developer @ Artiplast</h4>
+                <h4>Web Developer @ Artiplast</h4>
                 <p class="timeline-date">2024 - Present</p>
                 <p>Developed a serverless Vue SPA on Vercel, centered on static product display and UI design.</p>
               </div>
