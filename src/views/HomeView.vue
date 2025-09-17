@@ -14,18 +14,19 @@
         <div class="code-snippet">
           <pre style="margin:0;">
 <span style="color: gray;"># I love Django (the movie too)</span>
-<span style="color: orange;">class</span> WebDev(models.Model):
-    coffee = models.IntegerField(default=0)
-    deadlines = models.ManyToManyField(Project)
-    sanity = models.BooleanField(default=True)
+<span style="color: orange;">class</span> Me(models.Model):
+    name = models.CharField(max_length=100, default=<span style="color: orange;">"Rayen Ben Amor"</span>)
+    location = models.CharField(max_length=100, default=<span style="color: orange;">"Tunisia"</span>)
+    coffee = models.PositiveIntegerField(default=1)
 
     <span style="color: violet;">@property</span>
-    <span style="color: orange;">def</span> is_working(self):
-        self.coffee += 1
-        if self.deadlines.<span style="color: violet;">exists()</span>:
-            self.sanity = False
-            self.<span style="color: violet;">save()</span>
-        return <span style="color: orange;">"It works on my machine"</span>  <span style="color: gray; display: inline-flex;"># Just ship it <img src="../assets/nike.png" class="nike-image" alt="™?" draggable="false" loading="lazy"></span>
+    <span style="color: orange;">def</span> get_default_stack(self):
+        return {
+            <span style="color: orange;">"frontend"</span>: [ <span style="color: orange;">"JavaScript"</span>, <span style="color: orange;">"Vue.js"</span>],
+            <span style="color: orange;">"backend"</span>: [<span style="color: orange;">"Python"</span>, <span style="color: orange;">"Django"</span>, <span style="color: orange;">"DRF"</span>],
+            <span style="color: orange;">"database"</span>: [<span style="color: orange;">"PostgreSQL"</span>, <span style="color: orange;">"SQLite"</span>],
+            <span style="color: orange;">"devops"</span>: [<span style="color: orange;">"Docker"</span>, <span style="color: orange;">"GitHub"</span>, <span style="color: orange;">"Linux"</span>],
+        }
 </pre>
         </div>
       </div>
@@ -107,13 +108,7 @@ pre {
   word-wrap: break-word;
 }
 
-.nike-image {
-  object-fit: contain;
-  max-width: 100%;
-  height: 1.4em;
-  vertical-align: middle;
-  filter: invert(50%) sepia(100%) saturate(5000%) hue-rotate(100deg);
-}
+
 
 h1 {
   font-size: clamp(2.5rem, 5vw, 3rem);
@@ -191,9 +186,7 @@ h2 {
     max-width: 100%;
   }
 
-  .nike-image {
-    display: none;
-  }
+
 
   .cta-buttons {
     flex-direction: column;
