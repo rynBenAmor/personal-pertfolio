@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "title": "Expense Tracker",
-    "description": "Woke up one day and decided to act like an adult, built an expense tracker to stop wasting money on useless things like groceries.",
-    "image": "/media/expense-tracker.png",
-    "tags": ["Vue.js", "Electron.js", "in-progress"],
-    "category": "dev",
-    "demoUrl": "",
-    "codeUrl": "https://github.com/rynBenAmor/expense-tracker-app"
+    "title": "E-commerce Platform",
+    "description": "My proudest project so far, I engineered a custom web platform with flexible data models, full e‑commerce and CMS features, and automated workflows to turn complexity into a smooth user experience. On the infrastructure side, I secured and tuned a bare‑metal VPS with Nginx and built a Bash‑driven CI/CD pipeline that reduced deployment time and downtime. To top it off, I automated product data collection with Python, accelerating catalog creation and freeing the team from repetitive work.",
+    "image": "/media/fbs-demo.png",
+    "tags": ["Django", "Bootstrap 5", "NGINX", "Selenium", "VPS"],
+    "category": "pro",
+    "demoUrl": "https://sefbs.tn/",
+    "codeUrl": ""
   },
   {
     "id": 2,
     "title": "Manufacturer's Online Showroom",
-    "description": "Created a Vue.js SPA to put the company online and give clients a clear, visual look at product samples.",
+    "description": "Built a sleek static Vue.js showroom that let clients easily browse and share product information, strengthening the company's digital presence and supporting early sales growth.",
     "image": "/media/artiplast-demo.png",
     "tags": ["Vue.js", "Bootstrap 5", "animate.css"],
     "category": "pro",
@@ -24,21 +24,22 @@
     "title": "This very Portfolio",
     "description": "A responsive portfolio website built with Vue.js",
     "image": "/media/portfolio-demo.png",
-    "tags": ["Vue.js", "Vercel"],
+    "tags": ["Vue.js"],
     "category": "pro",
     "demoUrl": "https://rayen-ben-amor.vercel.app/",
     "codeUrl": "https://github.com/rynBenAmor/personal-pertfolio"
   },
   {
     "id": 4,
-    "title": "E-commerce Platform",
-    "description": "My proudest project so far, a full-featured e-commerce platform for wholesalers, handling content creation (blogging), client management, products, brands, automated mailing, and more. all powered by Django.",
-    "image": "/media/fbs-demo.png",
-    "tags": ["Django", "Bootstrap 5", "NGINX"],
-    "category": "pro",
-    "demoUrl": "https://sefbs.tn/",
-    "codeUrl": ""
+    "title": "Expense Tracker",
+    "description": "Woke up one day and decided to act like an adult, built an expense tracker to stop wasting money on useless things like groceries.",
+    "image": "/media/expense-tracker.png",
+    "tags": ["Vue.js", "Electron.js", "in-progress"],
+    "category": "dev",
+    "demoUrl": "",
+    "codeUrl": "https://github.com/rynBenAmor/expense-tracker-app"
   },
+
   {
     "id": 5,
     "title": "Content Management System",
@@ -78,5 +79,46 @@
     "category": "pro",
     "demoUrl": "",
     "codeUrl": "https://github.com/rynBenAmor/electron-vue-starter"
+  },
+  {
+    "id": 9,
+    "title": "Metal slug",
+    "description": "This was a 4fun project where i recreated a childhood retro game champion selection screen",
+    "image": "/media/metal-slug-x.png",
+    "tags": ["vue.js", "4fun"],
+    "category": "dev",
+    "demoUrl": "https://metal-slug-x.vercel.app/",
+    "codeUrl": "https://github.com/rynBenAmor/metal-slug-champ-select"
+  },
+
+  {
+    "id": 10,
+    "title": "DRF Starter",
+    "description": "A minimalist setup to quickly scaffold a Django Rest Framework API using HttpOnly cookies for authentication setup.",
+    "image": "/media/drf-starter.png",
+    "tags": ["Django", "DRF", "utility"],
+    "category": "pro",
+    "demoUrl": "",
+    "codeUrl": "https://github.com/rynBenAmor/drf_starter"
+  },
+  {
+    "id": 11,
+    "title": "Finance utility app",
+    "description": "an independent effort for a fully contained offline app that aims to streamline financial processes and enhance user experience for government services.",
+    "image": "/media/finance-utility-app.png",
+    "tags": ["Vue.js", "Electron.js", "utility", "in-progress"],
+    "category": "pro",
+    "demoUrl": "",
+    "codeUrl": ""
+  },
+  {
+    "id": 12,
+    "title": "Showroom/E-commerce",
+    "description": "A static presentation website for local business to showcase decoration and furniture services",
+    "image": "/media/deco-showroom.png",
+    "tags": ["Vue.js", "Bootstrap 5"],
+    "category": "pro",
+    "demoUrl": "https://cote-bamboo.vercel.app/",
+    "codeUrl": ""
   }
 ]

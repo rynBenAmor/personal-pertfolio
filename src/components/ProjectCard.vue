@@ -66,6 +66,8 @@ export default {
 .project-content p {
   color: var(--blue-grey-600);
   margin-bottom: 1rem;
+  max-height: 200px;
+  overflow-y: auto;
 }
 
 .project-tags {

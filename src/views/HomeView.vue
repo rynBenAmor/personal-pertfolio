@@ -4,7 +4,7 @@
       <div class="hero-content">
         <h1>Hi, I'm <span class="highlight">Rayen Ben Amor</span></h1>
         <h2>Full Stack Developer</h2>
-        <p class="subtitle">Junior Django developer with hands-on experience</p>
+        <p class="subtitle">Junior Django developer who is looking for more... everything</p>
         <div class="cta-buttons">
           <router-link to="/projects" class="btn">View My Work</router-link>
           <router-link to="/contact" class="btn btn-outline">Contact Me</router-link>
@@ -23,7 +23,7 @@
     <span style="color: orange;">def</span> get_default_stack(self):
         return {
             <span style="color: orange;">"frontend"</span>: [ <span style="color: orange;">"JavaScript"</span>, <span style="color: orange;">"Vue.js"</span>],
-            <span style="color: orange;">"backend"</span>: [<span style="color: orange;">"Python"</span>, <span style="color: orange;">"Django"</span>, <span style="color: orange;">"DRF"</span>],
+            <span style="color: orange;">"backend"</span>: [<span style="color: orange;">"Python"</span>, <span style="color: orange;">"Django"</span>, <span style="color: orange;">"DRF"</span>, <span style="color: orange;">"Electron.js"</span>],
             <span style="color: orange;">"database"</span>: [<span style="color: orange;">"PostgreSQL"</span>, <span style="color: orange;">"SQLite"</span>],
             <span style="color: orange;">"devops"</span>: [<span style="color: orange;">"Docker"</span>, <span style="color: orange;">"GitHub"</span>, <span style="color: orange;">"Linux"</span>],
         }

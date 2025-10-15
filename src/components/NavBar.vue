@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <div class="logo-container">
-        <router-link to="/" class="logo">Rayen.
+        <router-link to="/" class="logo">
           <img src="../assets/django-heart.svg" class="logo-image" alt="logo-image">
         </router-link>
       </div>
@@ -79,7 +79,7 @@ export default {
 }
 
 .logo-image {
-  width: 40px;
+  width: 60px;
   aspect-ratio: 1;
   padding: 16px 0 0 0;
 }
