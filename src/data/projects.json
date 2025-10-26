@@ -47,7 +47,7 @@
     "image": "/media/atgt-demo.png",
     "tags": ["Wagtail", "Django", "Bootstrap 5", "AOS", "animate.css"],
     "category": "pro",
-    "demoUrl": "https://atgt-tunisie.com/",
+    "demoUrl": "",
     "codeUrl": ""
   },
   {
@@ -66,7 +66,7 @@
     "description": "A maximalist Django 5.2 starter packed with optional Bootstrap 5.3, Font Awesome 6, theme toggle, full settings, demo templates, and handy quality-of-life features.",
     "image": "/media/django-starter.jpg",
     "tags": ["Django", "Bootstrap 5", "utility"],
-    "category": "pro",
+    "category": "dev",
     "demoUrl": "",
     "codeUrl": "https://github.com/rynBenAmor/django-starter"
   },
@@ -76,7 +76,7 @@
     "description": "A minimalist setup to quickly scaffold an Electron app using Vue 3 and TypeScript.",
     "image": "/media/electron-starter.jpg",
     "tags": ["Electron.js", "Vue.js", "Node.js", "TypeScript", "utility"],
-    "category": "pro",
+    "category": "dev",
     "demoUrl": "",
     "codeUrl": "https://github.com/rynBenAmor/electron-vue-starter"
   },
@@ -97,7 +97,7 @@
     "description": "A minimalist setup to quickly scaffold a Django Rest Framework API using HttpOnly cookies for authentication setup.",
     "image": "/media/drf-starter.png",
     "tags": ["Django", "DRF", "utility"],
-    "category": "pro",
+    "category": "dev",
     "demoUrl": "",
     "codeUrl": "https://github.com/rynBenAmor/drf_starter"
   },
@@ -119,6 +119,16 @@
     "tags": ["Vue.js", "Bootstrap 5"],
     "category": "pro",
     "demoUrl": "https://cote-bamboo.vercel.app/",
+    "codeUrl": ""
+  },
+  {
+    "id": 13,
+    "title": "movie explorer with next js",
+    "description": "A web application to explore movies using the TMDB API, built with Next.js.",
+    "image": "/media/egy-worst.png",
+    "tags": ["Next.js", "React", "TMDB API"],
+    "category": "dev",
+    "demoUrl": "",
     "codeUrl": ""
   }
 ]

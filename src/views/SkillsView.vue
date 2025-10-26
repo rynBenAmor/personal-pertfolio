@@ -3,6 +3,14 @@
     <section class="skills-section">
       <h1>My <span class="highlight">Skills</span></h1>
       <p class="subtitle">Technologies I work with</p>
+      <div>
+        <router-link class="primary-link" :to="{ name: 'projects' }">
+          see my projects <font-awesome-icon icon="fas fa-arrow-up-right-from-square"></font-awesome-icon>
+        </router-link>
+
+      </div>
+      <div class="divider"></div>
+
 
       <div class="skills-categories">
         <div class="category">
@@ -92,7 +100,7 @@ h1 {
 
 .subtitle {
   color: var(--blue-grey-600);
-  margin-bottom: 3rem;
+  margin-bottom: .5rem;
   font-size: 1.1rem;
 }
 
@@ -119,5 +127,17 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--blue-grey-200);
+  margin: 2rem 0;
+}
+
+.primary-link {
+  color: var(--teal-600);
+  font-weight: 600;
+  text-decoration: none;
 }
 </style>

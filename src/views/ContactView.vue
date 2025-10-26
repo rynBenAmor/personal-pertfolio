@@ -14,13 +14,7 @@
                 benamor.rayen@outlook.com</p>
             </div>
           </div>
-          <div class="info-item">
-            <font-awesome-icon icon="fas fa-phone-alt" />
-            <div>
-              <h3>Phone</h3>
-              <p>+216 53-400-838</p>
-            </div>
-          </div>
+
           <div class="info-item">
 
             <font-awesome-icon icon="fas fa-map-marker-alt" />
@@ -29,6 +23,7 @@
               <p>Tunisia, Nabeul</p>
             </div>
           </div>
+
           <div class="social-links">
             <a href="https://github.com/rynBenAmor" title="GitHub" target="_blank" rel="noopener noreferrer"
               class="social-icon">
