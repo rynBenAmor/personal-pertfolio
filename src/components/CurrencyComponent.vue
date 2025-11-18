@@ -1,7 +1,9 @@
 <template>
 
-  <div class="currency-container" style="text-align: center; margin: 15px auto;">
-    <h2 class="currency-title">Our lovely Currency Exchange Rate</h2>
+  <div class="currency-container">
+    <h2 class="currency-title">Our lovely Currency Exchange Rate
+      <img src="@/assets/Smadge.png" width="60px" alt="Smadge">
+    </h2>
 
     <div class="currency-display">
       <div class="from-currency currency-card">
@@ -32,8 +34,7 @@
         <div class="currency-amount">3.41</div>
       </div>
     </div>
-    <!--
-    <p class="currency-summary">1 EUR = 3.41 TND</p> -->
+
 
   </div>
 </template>
@@ -53,7 +54,6 @@ export default {
   max-width: 700px;
   background: white;
   border-radius: 16px;
-  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -61,11 +61,21 @@ export default {
 }
 
 .currency-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-size: 1.5rem;
   font-weight: 600;
   color: #2c3e50;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.currency-title img {
+  display: inline-block;
+  vertical-align: middle;
+  /* prevents baseline gap inside the H2 */
 }
 
 .currency-display {
@@ -93,6 +103,12 @@ export default {
   margin-bottom: 12px;
   margin-inline: auto;
 
+}
+
+.currency-flag svg,
+.currency-flag img {
+  display: block;
+  /* prevents extra inline bottom whitespace from SVG */
 }
 
 .eur-flag {
@@ -129,6 +145,8 @@ export default {
   color: white;
   border-radius: 50%;
   font-size: 1.2rem;
+  line-height: 1;
+  /* avoid extra line-height spacing */
 }
 
 .currency-summary {

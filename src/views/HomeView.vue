@@ -212,7 +212,7 @@ h2 {
 /** section 2 */
 .motivation-section {
   max-width: 480px;
-  margin: 2rem auto;
+  margin: 0rem auto;
   line-height: 1.6;
 }
 
